@@ -35,7 +35,8 @@ else:
     print("A is none of the above")
 
 
-#
+# checking for values
+
 value = input("Input a value:")
 if type(value) == str:
     print(value + "is a string")
